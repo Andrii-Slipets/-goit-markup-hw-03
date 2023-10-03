@@ -119,7 +119,9 @@ a {
 }
 
 
-.header-address {}
+.header-address {
+    padding: 24px 0;
+}
 
 .header-address-item {
     font-style: normal;
@@ -204,10 +206,19 @@ a {
 .prioryti-container {}
 
 
-.prioryti-title {
+.visually-hidden {
     text-align: center;
     text-transform: capitalize;
-    visibility:hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .prioryti-list {
@@ -302,7 +313,9 @@ a {
     padding: 120px 0;
 }
 
-.portfolio-container {}
+.portfolio-container {
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-title {
     font-size: 36px;
@@ -355,10 +368,10 @@ a {
     background-color:
         #2E2F42;
     padding-left: 156px;
+    padding: 100px 0;
 }
 
-.footer-footer {
-    padding: 100px 0; }
+.footer-footer {}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -368,7 +381,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block; 
+    display: inline-block;
     margin-bottom: 16px
 }
 
