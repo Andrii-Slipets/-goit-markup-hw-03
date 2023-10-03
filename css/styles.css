@@ -336,7 +336,7 @@ a {
 
 .portfolio-img {
     display: block;
-  
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-meps {
