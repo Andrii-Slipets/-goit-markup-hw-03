@@ -87,12 +87,12 @@ a {
 .header-menu {
     display: flex;
     gap: 24px;
-    padding: 24px 0;
 }
 
 .header-menu-item {
     font-weight: 500;
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-item:last-child {
@@ -311,7 +311,7 @@ a {
 }
 
 .portfolio-container {
-   
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
