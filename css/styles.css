@@ -307,10 +307,11 @@ a {
 
 .portfolio {
     padding: 120px 0;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-container {
-    border: 1px solid #e7e9fc;
+  
 }
 
 .portfolio-title {
@@ -334,8 +335,8 @@ a {
 .portfolio-item {
     color: #2e2f42;
     border: 1px solid #e7e9fc;
-    background: var(--WHITE, #FFF);
     width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-img {
