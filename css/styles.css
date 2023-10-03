@@ -46,7 +46,7 @@ img {
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
-   
+    padding: 24px 0;
 }
 
 .header-container {
@@ -328,8 +328,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-   
-   
+
+
 }
 
 .portfolio-item {
@@ -341,7 +341,7 @@ a {
 
 .portfolio-img {
     display: block;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 .portfolio-meps {
