@@ -307,17 +307,15 @@ a {
 
 .portfolio {
     padding: 120px 0;
-    border: 1px solid #e7e9fc;
 }
 
 .portfolio-container {
-    border: 1px solid #e7e9fc;
+
 }
 
 .portfolio-title {
     font-size: 36px;
     line-height: 111.111111%;
-    /* 40/36 */
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
@@ -328,15 +326,12 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-
-
 }
 
 .portfolio-item {
     color: #2e2f42;
     border: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3);
-    
+    width: calc((100% - 48px) / 3); 
 }
 
 .portfolio-img {
